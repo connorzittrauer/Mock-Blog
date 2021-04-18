@@ -1,0 +1,130 @@
+
+
+/* Doesn't remove images, applies grayscale*/
+@media print {
+	#nav_menu {
+		display: none !important;
+	}
+    #head_banner {
+        display: none !important;
+    }
+    img {
+        filter: url('#grayscale');
+    }
+	body {
+        color: black !important;
+	}
+}
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+
+/*	background-image: url("../images/noise.jpg");*/
+    background-color: #1a262f;
+	color: antiquewhite;
+}
+main{
+	padding: 20px 25px 25px 25px;
+}
+main h1 {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+dd, dt {
+    line-height: 2 ;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 20%;
+}
+#nav_menu { text-align: center; }
+#nav_menu ul { display: inline-block; list-style-type: none; }
+#nav_menu ul li { float: right; }
+#nav_menu ul li a {
+		text-align: center;
+		display: block;
+		width: 400px;
+		padding: 1em 1em;
+		text-decoration: none;
+		background-color: ;
+		color: black;
+        color: antiquewhite;
+		font-weight: bold;
+		border: 1px solid antiquewhite;
+      
+}
+#nav_menu ul li a.lastItem { border-right: none; }
+
+table  {
+    border-collapse:collapse;
+    border-spacing:0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    color: maroon;
+   
+    background-color: antiquewhite;
+    
+}
+ tr, td{
+    border-color:antiquewhite;
+    border-style: groove;
+    border-width: 3px;
+    font-family:Arial, sans-serif;font-size:14px;
+    
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+tr, th{border-color:antiquewhite;
+    border-style: groove;
+    border-width:3px;
+    font-family:Arial, sans-serif;
+    font-size: 115%;
+    font-weight: bold;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;}
+
+.artist {
+    font-size: 105%;
+    text-align: center;
+    text-align: center;
+    vertical-align:top;
+    padding: 1em;
+}
+
+.price {
+    font-size: 115%;
+    text-align: center;
+    text-decoration-line:underline;
+}
+
+.album {
+    font-size: 105%;
+    text-align: center;
+    text-decoration-line:underline;
+}
+td a {
+    color: crimson;  
+}
+a:hover {
+  color: forestgreen;
+}
+.feedback {
+    text-align: center;
+    padding-bottom: 3em;
+}
+.feedback a {
+    color: aqua;
+}
+footer{
+	text-align: center;
+}

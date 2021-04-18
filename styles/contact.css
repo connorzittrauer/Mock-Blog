@@ -1,0 +1,154 @@
+
+/*PRINTING instructions */
+@media print {
+
+	#nav_menu, img {
+		display: none !important;
+;
+	}
+	body {
+        color: black !important;
+	}
+
+h1 {
+    margin-right: 10em;
+    text-align: center;
+    }
+.input-forms {
+   display: inline-block;
+   padding-bottom: 2em;
+   padding-left: 15em;
+   padding-top: 6em;
+    padding-right: 14em;
+}
+
+.input-forms p {
+    padding-right: 3em;
+ 
+    }
+.input-forms input {
+  display: inline-block;
+  float: right;
+}
+
+button {
+    display: none !important;
+}
+.feedback {
+    text-align: center;
+    padding-right: 9em;
+    padding-bottom: 3em;
+}
+}
+/*----------------------------*/
+
+
+/*MAIN instructions*/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+
+	background-color: #1a262f;
+	color: antiquewhite;
+}
+main{
+	padding: 20px 25px 25px 25px;
+    
+}
+main h1 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5em;
+    text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 20%;
+}
+#nav_menu { text-align: center; }
+#nav_menu ul { display: inline-block; list-style-type: none; }
+#nav_menu ul li { float: right; }
+#nav_menu ul li a {
+		text-align: center;
+		display: block;
+		width: 400px;
+		padding: 1em 1em;
+		text-decoration: none;
+		background-color: ;
+		color: black;
+        color: antiquewhite;
+		font-weight: bold;
+		border: 1px solid antiquewhite;
+      
+}
+#nav_menu ul li a.lastItem { border-right: none; }
+
+#microphone {
+    float: right;
+        
+    padding-right: 3em;
+    padding-left: 2em;
+}
+
+#studio {
+    float: right;
+    padding-left: 6em;
+}
+
+.input-forms h1 {
+    padding-right: 2em;
+}
+
+.input-forms {
+   display: inline-block;
+   padding-bottom: 2em;
+   padding-left: 15em;
+   padding-top: 6em;
+}
+
+.input-forms input {
+  display: inline-block;
+  float: right;
+  width: 350px; 
+  border-radius:5px;
+}
+
+.input-forms a {
+    text-decoration: none;
+    padding-left: 4em;
+   
+}
+
+button {
+  background-color: antiquewhite; /* Green */
+
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    margin-top: 1em;
+    margin-left: 8.3em;
+}
+input:required:invalid {
+  border: 2px solid black ;
+}
+input:required:valid {
+  border: 2px solid black;
+}
+
+.feedback {
+    text-align: center;
+    padding-left: 9em;
+    padding-bottom: 3em;
+}
+.feedback a {
+    color: aquamarine;
+}
+footer{
+    padding-top: 20em;
+	text-align: center;
+}
